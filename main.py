@@ -8,4 +8,11 @@ for FourTimesTable in range (4,49,4):
   num=num+1
 
 
-
+#HLT 2: Going Loopy
+myname=input(("Please enter your name :"))
+total = 0
+while total <= 50:
+    num = int(input("Enter a number: "))
+    total += num
+    print("The total is",total,)
+  
