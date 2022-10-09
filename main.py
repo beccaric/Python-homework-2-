@@ -16,3 +16,11 @@ while total <= 50:
     total += num
     print("The total is",total,)
   
+
+#HLT 3: Comparison/Logical Operators 
+myname=input(("Please enter your name :"))
+colour=(input("Please enter your favourite colour:"))
+if colour == "red" or colour == "RED" or colour == "Red":
+  print("I like Red too!")
+else:
+  print("I don't like Pink, I prefer Red!")
